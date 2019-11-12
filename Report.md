@@ -101,7 +101,7 @@ Environment solved after 1353 episodes with the average score 0.5009000075235963
 ```
 
 ## Plot of reward
-[ ](/plot.png)
+![ ](/plot.png)
 
 ## Ideas for Future work
  - One of the most obvious directions for additional research would be the change of the model. In particular, one could try Proximal Policy Optimization (PPO) on this task, which seems to have worked for other people in the nanodegree. I could imagine it to work quite well on a problem like this, that is not very high-dimensional.
