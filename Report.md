@@ -87,12 +87,21 @@ NOISE_END=0.1
 ```
 
 ## Result: 
-Average score over 100 episodes reaches 0.513 at 1673th episode, which is considered to solve the environment.
+Average score reaches 0.5009000075235963 at 1353 episode, which is considered to solve the environment.
 ```
+0 episode	avg score 0.00000	max score 0.00000
+500 episode	avg score 0.01660	max score 0.00000
+1000 episode	avg score 0.04480	max score 0.09000
+1353 episode	avg score 0.50090	max score 2.70000
+Environment solved after 1353 episodes with the average score 0.5009000075235963
+
+1500 episode	avg score 0.08580	max score 0.00000
+1999 episode	avg score 0.01000	max score 0.10000
+
 ```
 
 ## Plot of reward
-
+[ ](/plot.png)
 
 ## Ideas for Future work
  - One of the most obvious directions for additional research would be the change of the model. In particular, one could try Proximal Policy Optimization (PPO) on this task, which seems to have worked for other people in the nanodegree. I could imagine it to work quite well on a problem like this, that is not very high-dimensional.
